@@ -1,0 +1,115 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	padding: 20px;
+}
+
+body {
+	background: url('background.png') no-repeat;
+	background-size: cover;
+}
+
+ul > li {
+	list-style: none;
+}
+
+.container {
+	position: relative;
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.menu,
+.content {
+	position: absolute;
+}
+
+.menu {
+	background: rgba(172, 255, 47, 0.107);
+	left: 0;
+	height: 100%;
+	width: 25%;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+li {
+	text-align: center;
+	font-size: 22px;
+	padding: 7px;
+	border-radius: 20px 0;
+	border-top: 2px solid red;
+	border-bottom: 2px dotted rgb(102, 30, 174);
+	border-left: 5px dashed black;
+	border-right: 5px dashed black;
+	margin-bottom: 10px;
+	background: rgb(170, 255, 0);
+}
+
+.content {
+	right: 0;
+	height: 100%;
+	width: calc(75% - 10px);
+}
+
+h2 {
+	font-size: 44px;
+	padding: 10px;
+	height: 75px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: orange;
+	margin-bottom: 10px;
+	text-shadow: -2px 2px 0.5px red;
+}
+
+.main {
+	position: relative;
+	background: paleturquoise;
+	height: calc(100% - 75px - 10px);
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.block1,
+.block2 {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: #000;
+	border: 2px solid #fff;
+}
+
+.block2 {
+	top: 50px;
+	left: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px 5px red;
+	opacity: 0.6;
+}
+
+.images-container {
+	width: calc(100% - 20px);
+	position: absolute;
+	background: orange;
+	bottom: 10px;
+	text-align: center;
+	padding: 10px 5px 7px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+img {
+	width: 125px;
+	margin: 0 5px;
+}
